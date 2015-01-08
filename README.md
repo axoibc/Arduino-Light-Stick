@@ -1,14 +1,18 @@
 # Arduino-Light-Stick
 Based off of code from http://scott-bot.com/led-light-painting/
 
-This updates the code to utilitize adafruit's new ST7735R with built in microSD card reader. Plus changes to the libraries that have happened since the original project was created. The original project used a seperate card reader which is now unnecessary. (Wish I'd known that before I bought the other reader though...)
+This updates the code to utilitize adafruit's new ST7735R with built in microSD card reader. 
+Plus changes to the libraries that have happened since the original project was created. 
+The original project used a seperate card reader which is now unnecessary. 
+(Wish I'd known that before I bought the other reader though...)
 
 This project requires:
   1     ST7735R (https://www.adafruit.com/products/358)
   1     Arudino Uno (I used a version 2 board which works the same as an R3 board) (https://www.sparkfun.com/products/11021)
   2     LED Strips (2 meters = 64 LEDs) (https://www.adafruit.com/products/306)
   
-Hookup is pretty straight forward following these instructions from https://learn.adafruit.com/1-8-tft-display/displaying-bitmaps.
+Hookup is pretty straight forward following these instructions from 
+https://learn.adafruit.com/1-8-tft-display/displaying-bitmaps.
 
 LCD PIN (left to right facing LCD - breakout)
   1. GND
